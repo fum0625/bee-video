@@ -2,7 +2,7 @@
 <html>
 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
 <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.7.7/aframe/build/aframe-ar.js"></script>
-  <body style='margin : 0px; overflow: hidden;'>
+<body style='margin : 0px; overflow: hidden;'>
     <a-assets>
 	    <video id="bee-video" autoplay loop="true" muted="true" src="bee.mp4"></video>
 	  </a-assets>
@@ -14,10 +14,9 @@
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
-  </body>
+</body>
     
-    <script>
-
+<script>
         AFRAME.registerComponent('registerevents', {
             init: function () {
             var marker = this.el;
@@ -41,6 +40,6 @@
             });
             }
         });
-    </script>
+</script>
 
 </html>
